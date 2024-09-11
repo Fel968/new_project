@@ -4,6 +4,8 @@
     overflow-x: hidden;
     text-decoration: none;
 }
+
+/* navbar starts here */
 #navbar{
     height: 10vh;
     width: 100vw;
@@ -37,6 +39,16 @@
     height: 100vh;
     width: 100%;
 }
+
+/* nav bar ends here */
 .black_texts{
     color: black;
+}
+.hero_overlay{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: General_Sans_Variable, sans-serif;
+
 }
