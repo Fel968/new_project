@@ -1,33 +1,6 @@
-/* h1{
-    background-color: orangered;
-    color: white;
-} */
- #slider{
-    overflow: hidden;
-    height: 90vh;
- }
- #slider figure{
-    position: relative;
-    width: 400%;
-    display: flex;
-    flex-direction: row;
-    animation: 20s slider infinite;
- }
-  #slider figure img{
-    float: left;
-    width: 25%;
- } 
-  @keyframes slider{
-    0%{
-        left: 0;
-    }
-    20%{
-        left: 0;
-    }
-    25%{
-        left: -100;
-    }
-    45%{
-        left: -100;
-    }
-  }
+#navbar{
+
+}
+#hero{
+background-image: url(images/home-cover-1.png);
+}
