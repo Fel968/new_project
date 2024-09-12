@@ -1,38 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>luminate</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav id="navbar">
 
-        <!-- logo and search button -->
-    <h3 id="logo">luminate</h3>   
-    <!-- redo search bar has to be a border not a button  -->
-    <button id="search_bar">Search</button>
+        <!-- logo -->
+        <img id="logo" src="images/logo.png" alt="" width="130px" height="25px">
 
-    <!-- menum items -->
-    <div id="menu_items">
-        <a class="black_texts" href="#">Home</a>
-        <a class="black_texts" href="#">Shop</a>
-        <a class="black_texts" href="#">Collections</a>
-        <a class="black_texts" href="#">Blog</a>
-        <a class="black_texts" href="#">Pages</a>
-    </div>
+        <!--search button  -->
+        <div id="search_bar">
+            <img style="opacity: 0.5;" src="images/search-interface-symbol.png" alt="" height="20px" width="20">
+            <p style="opacity: 0.5;">Search products...</p>
+        </div>
 
-    <!-- contact icon and cart div -->
-     <div id="cart_contact">
-        <img src="images/user.png" alt="" height="45px" width="45px">
-        <p>Cart  0</p>
-     </div> 
+        <!-- menum items -->
+        <div id="menu_items">
+            <a class="black_texts" href="#">Home</a>
+            <a class="black_texts" href="#">Shop</a>
+            <a class="black_texts" href="#">Collections</a>
+            <a class="black_texts" href="#">Blog</a>
+            <a class="black_texts" href="#">Pages</a>
+        </div>
+
+        <!-- contact icon and cart div -->
+        <div id="cart_contact">
+            <img src="images/user.png" alt="" height="40px" width="40px">
+            <p>Cart 0</p>
+        </div>
     </nav>
+
+    <!-- hero section starts here -->
     <section id="hero">
-        <h1>Choose our lights and make your interior unique.</h1>
-        <p>Well designed lights for your home & office environments.
-            Our high quality lights will make your place modern.</p>
+        <h1 class="text_on_hero" style="font-size: 52px;">Choose our lights and make <br> your interior unique.</h1>
+        <p class="text_on_hero" style="padding-top: 30px; line-height: 25px; font-size: 16px;">Well designed lights for
+            your
+            home & office environments.
+            <br>
+            Our high quality lights will make your place modern.
+        </p>
+        <!-- button on hero -->
+        <button style="font-size: 20px; font-weight: bold;" id="hero_button">Explore our collections</button>
+    </section>
+
+    <!-- second section starts here -->
+    <section class="second_section">
+        <!-- <div class="title_2"> -->
+        <span class="title_2">
+            <h2>Shop by departments</h2>
+            <p style="text-decoration: underline;">See all</p>
+        </span>
+        <!-- </div> -->
+        <div class="images_grid">
+            <div>
+                <img src="images/second_section_1.png" alt="" width="310px" height="300px">
+                <p class="align_text_center">Floor lamps</p>
+            </div>
+            <div>
+                <img src="images/2.png" alt="" width="310px" height="300px">
+                <p class="align_text_center">Indoor Lighting </p>
+            </div>
+            <div>
+                <img src="images/3.png" alt="" width="310px" height="300px">
+                <p class="align_text_center">Wall Lighting</p>
+            </div>
+            <div>
+                <img src="images/4.png" alt="" width="310px" height="300px">
+                <p class="align_text_center">Outdoor Lighting</p>
+            </div>
+        </div>
+    </section>
+    <!-- second section ends here -->
+
+    <!-- third section starts here -->
+    <section class="third_section">
+        <span class="second_grid_title">
+            <h2>Handpicked lights</h2>
+            <p style="text-decoration: underline;">See all</p>
+        </span>
+        <div class="second_grid">
+            <div>
+                <img style="background-color: #F6F5F2;" src="images/3_sec_1.png" alt="">
+                <p>Follow me table</p>
+                <p>digits</p>
+                <p>rate</p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <img style="background-color: #F6F5F2;" src="images/3_sec_2.png" alt="">
+                <p>Follow me table</p>
+                <p>digits</p>
+                <button>Add to cart</button>
+            </div>
+            <div>
+                <img style="background-color: #F6F5F2;" src="images/3_sec_3.png" alt="">
+                <p>Follow me table</p>
+                <p>digits</p>
+                <button>Add to cart</button>
+            </div>
+        </div>
+            <!-- <div>
+                <img style="background-color: #F6F5F2;" src="images/3_sec_1.png" alt="">
+                <div>
+                    <p>Follow me table</p>
+                    <p>digits</p>
+                    <p>rate</p>
+                    <button>Add to cart</button>
+                </div> -->
+
+
     </section>
 </body>
+
 </html>
