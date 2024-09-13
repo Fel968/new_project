@@ -317,7 +317,7 @@ text-align: center;
 }
 .hover_items:hover{
     text-decoration:  underline;
-     text-underline-offset:  50px;
+    /* text-underline-offset:  50px; */
 }
 footer{
     background-color: #F6F5F2;
