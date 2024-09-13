@@ -118,11 +118,16 @@ body {
 .align_text_center {
     text-align: center;
     padding-top: 10px;
-}
+    font-size: 18px;
+    }
 
 .third_section {
     margin-top: 60px;
     width: auto;
+}
+.crossed_digits{
+    text-decoration: line-through;
+    opacity: 0.5;
 }
 
 .second_grid_title {
@@ -155,10 +160,11 @@ body {
 
 .add_to_cart_buttons {
     height: 41px;
-    width: 131px;
+    width: 150px;
     border-radius: 30px;
     background-color: transparent;
     border: 1px solid black;
+    font-weight: bold;
 }
 
 .left_image {
@@ -169,6 +175,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.center_text{
+    text-align: center;
+    font-size: 18px;
 }
 
 .right_image {
@@ -251,21 +261,64 @@ row-gap: 20px;
     background-color: #F6F5F2;
     margin-top: 60px;
     overflow: hidden;
+    padding: 20px;
 }
 .sixth_section_all{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;   
-    padding-top: 60px;
+    justify-content: space-between; 
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
 }
 .sixth_section_title{
 display: flex;
 flex-direction: column;
 row-gap: 30px;
+padding-top: 20px;
 }
+.text_width{
+width: 60%;
+}
+
+/*changes to image*/
+.sixth_image{
+object-fit: cover;
+width: 80%; 
+}   
 .seventh_section{
     background-image: url(images/7_sec_img.png);
     height: 100vh;
     background-size: cover;
-    background-position-x: ;
+    background-position-x: -300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+    padding-top: 100px;
+}
+.text_on_bg{
+text-align: center; 
+}
+.title_on_bg{
+    font-size: 48px;
+}
+.btn_on_image{
+    height: 52px;
+    width: 232px;
+    margin-top: 30px; 
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 18px;
+}
+.hover_items:hover{
+    text-decoration: 1px underline;
+}
+footer{
+    background-color: #F6F5F2;
+    height: 80vh;
 }
