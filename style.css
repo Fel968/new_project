@@ -316,9 +316,39 @@ text-align: center;
     font-size: 18px;
 }
 .hover_items:hover{
-    text-decoration: 1px underline;
+    text-decoration:  underline;
+     text-underline-offset:  50px;
 }
 footer{
     background-color: #F6F5F2;
     height: 80vh;
+    padding-top: 60px;
+}
+.top_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+.free_shipping{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+hr{
+margin: 60px 40px;
+}
+.bolden_text{
+font-weight: bold;
+font-size: 18px;
+}
+.buttom_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.first_sub_div{
+    display: grid;
+    grid-template-columns: auto auto;  
 }
