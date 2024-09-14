@@ -317,18 +317,20 @@ text-align: center;
 }
 .hover_items:hover{
     text-decoration:  underline;
-    /* text-underline-offset:  50px; */
+    text-underline-offset:  50px; 
 }
 footer{
     background-color: #F6F5F2;
-    height: 80vh;
+    height: 100vh;
     padding-top: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 .top_div{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-   
+    justify-content: space-evenly;   
 }
 .free_shipping{
     display: flex;
@@ -346,9 +348,33 @@ font-size: 18px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    overflow: hidden;
+    
 }
 .first_sub_div{
     display: grid;
     grid-template-columns: auto auto;  
+    column-gap: 50px;
+}
+.column_div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    overflow: hidden;
+}
+.text_elements{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    row-gap: 10px;
+    opacity: 0.5;
+    overflow: hidden;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
 }
